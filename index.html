@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Caveat:wght@400;500;600;700&family=Forum&family=Lobster&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Тест домохозяйки</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Как хорошо ты знаешь сериал Отчаянные домохозяйки?</h1>
+    <form>
+        <div class="kartocka">
+        <p>Кто самая молодая домохозяйка?<br>
+          <label>
+            <input type="radio" name="myname" value="0">
+            Идди</label>
+          <br>
+          <label>
+            <input type="radio" name="myname" value="0">
+            Бри</label>
+          <br>
+          <label>
+            <input type="radio" name="myname" value="1">
+            Габриэль</label>
+          <br>
+          <label>
+            <input type="radio" name="myname" value="0">
+            Линетт</label>
+        </p>
+    </div>
+    <div class="kartocka">
+        <label for="street"><p>На какой улице живут домохозяйки?</p></label><br>
+        <select name="street" id="select">
+          <option value="0"></option>
+          <option value="0">Старлайт-шоурз</option>
+          <option value="1">Вистерия-лейн</option>
+          <option value="0">Оазис-палмс</option>
+        </select>
+        </div>
+        <div class="kartocka">
+        <p>Сколько детей у семьи Скаво?:<br>
+          <label>
+            <input type="checkbox" name="precipitation[]" value="1">
+            5</label>
+          <br>
+          <label>
+            <input type="checkbox" name="precipitation[]" value="0">
+            4</label>
+          <br>
+          <label>
+            <input type="checkbox" name="precipitation[]" value="0">
+            2</label>
+          <br>
+        </p>
+        </div>
+        <div class="kartocka">
+        <p>Цвет волос Бри Ван-Де-Камп?<br>
+            <label>
+              <input type="radio" name="volos" value="0">
+              блонд</label>
+            <br>
+            <label>
+              <input type="radio" name="volos" value="0">
+              черный</label>
+            <br>
+            <label>
+              <input type="radio" name="volos" value="1">
+              Рыжий</label>
+            <br>
+            <label>
+              <input type="radio" name="volos" value="0">
+              коричневый</label>
+          </p>
+          </div>
+          <div class="kartocka">
+          <p>Как погибла Мери-Элис?<br>
+            <label>
+              <input type="radio" name="die" value="0">
+              утонула</label>
+            <br>
+            <label>
+              <input type="radio" name="die" value="1">
+              застрелилась</label>
+            <br>
+            <label>
+              <input type="radio" name="die" value="0">
+              отравилась</label>
+            <br>
+            <label>
+              <input type="radio" name="die" value="0">
+              сгорела</label>
+          </p>
+        </div>
+        <div class="kartocka">
+          <p>Кто сбил насмерть Хуаниту Солис <br> (мать Карлоса)?<br>
+            <label>
+              <input type="radio" name="car" value="1">
+              Эндрю Ван-Де-Камп</label>
+            <br>
+            <label>
+              <input type="radio" name="car" value="0">
+              Том Скаво</label>
+            <br>
+            <label>
+              <input type="radio" name="car" value="0">
+              Идди Брит</label>
+            <br>
+            <label>
+              <input type="radio" name="car" value="0">
+              Паркер Скаво</label>
+          </p>
+          </div>
+          
+        <p>
+          <input type="button" id="calc" value="Результат">
+          <input type="reset" id="reset" value="Сброс">
+        </p>
+         <p class="itog"> Итого баллов:</p> <input type="text" name="result" id="rr" readonly>
+      </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,96 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(img/otchayannye-domohozyayki-serial-165.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container {
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.kartocka {
+    background-color:rgb(233, 227, 215);
+    border: 3px  rgb(194, 167, 128) solid ;
+    height: 150px;
+    width: 400px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#calc ,
+#reset {
+    width: 200px;
+    height: 55px;
+    background-color: rgb(243, 231, 213);
+    border: 3px  rgb(194, 167, 128) solid ;
+}
+
+#rr {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 75px;
+    background-color: transparent;
+    border: 3px  rgb(194, 167, 128) solid ;
+}
+.itog {
+    margin-top: 30px;
+    font-size: 25px;
+    color: brown;
+    font-weight: bold;
+}
+#select {
+    background-color: transparent;
+    width: 150px;
+    height: 30px;
+}
+
+
+@media all and (max-width:500px) {
+    .container{
+        max-width: 350px;
+    }
+    p {
+        font-size: 13px;
+    }
+    .h1 {
+        font-size: 17px;
+    }
+    .itog {
+        font-size: 17px;
+    }
+    .kartocka {
+        width: 250px;
+        height: 120px;
+        padding-bottom: 13px;
+    }
+    #calc ,
+    #reset {
+    width: 100px;
+    height: 40px;
+    }
+    #rr {
+        width: 250px;
+        height: 40px;
+    }
+    
+}
